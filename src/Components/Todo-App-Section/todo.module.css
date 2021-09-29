@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+:root{
+    --font: 'Poppins', sans-serif;
+    --body:#ECDBBA;
+    --color:#C84B31;
+    --back_color:#ffffff;
+}
+body{
+    background: var(--body);
+}
+.todo__div{
+    width: 70%;
+    min-height: 65%;
+    max-height: 50%;
+    overflow-y: auto;
+    background-color: var(--back_color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 2rem;
+    color: var(--color);
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px 1px rgba(128, 128, 128, 0.25);
+
+}
+.todo__head{
+    margin-bottom: 1rem;
+    font-family: var(--font);
+    text-transform: uppercase;
+}
+.list__div{
+    list-style: none;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    font-family: var(--font);
+    margin-bottom: 0.7rem;
+}
+span{
+    margin-right: 0.5rem;
+}
+input{
+    border: none;
+    border-bottom: 3px solid var(--color);
+    outline: none;
+    padding: 0.5rem 0.5rem 0.3rem 0.5rem;
+    width: 50%;
+    font-family: var(--font);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+.todo__button__1{
+    background: none;
+    border: none;
+    outline: none;
+}
+.todo__button__1 i{
+    background: none;
+    outline: none;
+    border: none;
+    background-color: var(--color);
+    padding: 1rem;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    color: var(--back_color);
+}
+.todo__button__2 i{
+    background: none;
+    outline: none;
+    border: none;
+    background-color: var(--color);
+    padding: 0.7rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: var(--back_color);
+}
+.mylist{
+    padding-top: 0.3rem;
+    font-size: 1.1rem;
+}
+
