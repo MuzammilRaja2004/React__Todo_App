@@ -42,7 +42,7 @@ const TodoList = () => {
   return (
     <div className={todostyles.todo__div}>
       <h1 className={todostyles.todo__head}>Todo List</h1>
-      <input type="text" value={inputList} placeholder="Add Your List" onChange={itemEvent} className={todostyles.todo__inp} />
+      <input type="text" value={inputList} placeholder="Add Your Lists" onChange={itemEvent} className={todostyles.todo__inp} />
 
       <button className={todostyles.todo__button__1} onClick={listofitmes}>
         <i className="fas fa-plus"></i>

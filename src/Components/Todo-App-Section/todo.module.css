@@ -28,6 +28,7 @@ body{
     color: var(--color);
     border-radius: 5px;
     box-shadow: 0px 0px 9px 1px rgba(128, 128, 128, 0.25);
+    padding-bottom: 3rem;
 
 }
 .todo__head{
